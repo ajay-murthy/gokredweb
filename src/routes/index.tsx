@@ -166,7 +166,7 @@ function Landing() {
         </p>
       </StorySection>
 
-      <section id="join" className="relative flex min-h-[100dvh] w-full items-end overflow-hidden bg-flame px-[5vw] pt-[6vw] pb-[5vw] text-white">
+      <section id="join" className="relative flex min-h-[100dvh] w-full items-end overflow-hidden bg-flame px-[5vw] pt-[6vw] pb-[max(2.5rem,env(safe-area-inset-bottom,0px)+2rem)] md:pb-[5vw] text-white">
         <div className="w-full">
           <p className="text-[11px] font-bold uppercase tracking-[0.25em]">08 · Join the chain</p>
           <hr className="my-[2vw] border-none border-t border-black/60" />

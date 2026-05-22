@@ -40,7 +40,7 @@ export function StorySection({ index, kicker, title, bg, fg, rule, children, pin
             opacity,
             transformOrigin: "0% 100%",
           }}
-          className="flex h-full w-full flex-col justify-between gap-3 px-[5vw] pt-20 pb-[4vw] md:gap-6 md:pt-[clamp(2rem,6vw,5rem)] will-change-transform"
+          className="flex h-full w-full flex-col justify-between gap-3 px-[5vw] pt-20 pb-[max(2.5rem,env(safe-area-inset-bottom,0px)+2rem)] md:gap-6 md:pt-[clamp(2rem,6vw,5rem)] md:pb-[4vw] will-change-transform"
         >
           <p className="text-[11px] font-bold uppercase tracking-[0.25em]">
             {index} · {kicker}
