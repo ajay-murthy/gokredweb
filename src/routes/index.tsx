@@ -35,7 +35,7 @@ function Landing() {
         fg="#ffffff"
         rule="#000000"
       >
-        <p className="mt-auto max-w-[55ch] text-[clamp(1rem,2.2vw,1.9rem)] font-normal leading-relaxed">
+        <p className="mt-auto max-w-[55ch] text-[clamp(0.9rem,2.2vw,1.9rem)] font-normal leading-relaxed">
           Gokred is a mobile app that turns your national ID into the master key for every degree,
           diploma, license, and badge you've ever earned · verified, portable, and yours.
         </p>
@@ -48,7 +48,7 @@ function Landing() {
         bg="#0a0a0a"
         fg="#ffffff"
       >
-        <p className="max-w-[55ch] text-[clamp(1rem,2.2vw,1.9rem)] font-normal leading-relaxed">
+        <p className="max-w-[55ch] text-[clamp(0.9rem,2.2vw,1.9rem)] font-normal leading-relaxed">
           Certificates get lost. Transcripts get faked. Background checks crawl for weeks while
           opportunities slip away. The credential system was built for filing cabinets · not for life.
         </p>
@@ -69,7 +69,7 @@ function Landing() {
         bg="#F5F0E8"
         fg="#0a0a0a"
       >
-        <p className="max-w-[55ch] text-[clamp(1rem,2.2vw,1.9rem)] font-normal leading-relaxed">
+        <p className="max-w-[55ch] text-[clamp(0.9rem,2.2vw,1.9rem)] font-normal leading-relaxed">
           Log in with your national ID. Your name, photo, and date of birth flow in from the social
           registry. Every credential ever issued to you · school report cards, university degrees,
           professional licenses, micro-courses · lines up in a beautiful chronological timeline.
@@ -91,7 +91,7 @@ function Landing() {
         bg="#1A3DE8"
         fg="#ffffff"
       >
-        <p className="max-w-[55ch] text-[clamp(1rem,2.2vw,1.9rem)] font-normal leading-relaxed">
+        <p className="max-w-[55ch] text-[clamp(0.9rem,2.2vw,1.9rem)] font-normal leading-relaxed">
           Found an old paper certificate? Point the camera. Gokred OCRs it, pings the original
           issuer, and stamps it Verified · or flags it Unverified · in seconds. Then it joins your
           timeline, signed and anchored.
@@ -114,7 +114,7 @@ function Landing() {
         fg="#0a0a0a"
         rule="#000000"
       >
-        <p className="max-w-[55ch] text-[clamp(1rem,2.2vw,1.9rem)] font-normal leading-relaxed">
+        <p className="max-w-[55ch] text-[clamp(0.9rem,2.2vw,1.9rem)] font-normal leading-relaxed">
           Per-credential visibility. Public to institutions, consent-only, or private. Background
           check requested? You get a push notification, see who's asking, and approve · the whole
           round-trip closes in seconds, not weeks.
@@ -137,7 +137,7 @@ function Landing() {
         bg="#0a0a0a"
         fg="#ffffff"
       >
-        <p className="max-w-[55ch] text-[clamp(1rem,2.2vw,1.9rem)] font-normal leading-relaxed">
+        <p className="max-w-[55ch] text-[clamp(0.9rem,2.2vw,1.9rem)] font-normal leading-relaxed">
           Every citizen is an identity block. Every credential is a signed transaction. Every consent,
           revocation, and result is recorded. Anchored to a permissioned chain · searchable in
           milliseconds, falsifiable by no one.
@@ -159,14 +159,14 @@ function Landing() {
         bg="#F5F0E8"
         fg="#0a0a0a"
       >
-        <p className="max-w-[55ch] text-[clamp(1rem,2.2vw,1.9rem)] font-normal leading-relaxed">
+        <p className="max-w-[55ch] text-[clamp(0.9rem,2.2vw,1.9rem)] font-normal leading-relaxed">
           Verified scores. Stated interests. The right universities, scholarships, and employers
           surface in your feed. Exam results? Published to the backend, pushed to your phone the
           second they drop.
         </p>
       </StorySection>
 
-      <section id="join" className="relative flex min-h-screen w-full items-end overflow-hidden bg-flame px-[5vw] pt-[6vw] pb-[5vw] text-white">
+      <section id="join" className="relative flex min-h-[100dvh] w-full items-end overflow-hidden bg-flame px-[5vw] pt-[6vw] pb-[5vw] text-white">
         <div className="w-full">
           <p className="text-[11px] font-bold uppercase tracking-[0.25em]">08 · Join the chain</p>
           <hr className="my-[2vw] border-none border-t border-black/60" />
@@ -178,7 +178,7 @@ function Landing() {
             <p className="max-w-[40ch] text-[clamp(1rem,2vw,1.6rem)] font-normal leading-relaxed">
               Your credentials, verified for life. Available on iOS and Android.
             </p>
-            <div className="flex gap-4">
+            <div className="flex flex-wrap gap-4">
               <a href="#" className="rounded-full bg-black px-6 py-3 text-sm font-bold uppercase tracking-[0.2em]">App Store</a>
               <a href="#" className="rounded-full bg-white px-6 py-3 text-sm font-bold uppercase tracking-[0.2em] text-black">Google Play</a>
             </div>

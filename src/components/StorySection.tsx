@@ -28,9 +28,9 @@ export function StorySection({ index, kicker, title, bg, fg, rule, children, pin
     <section
       ref={ref}
       className="relative w-full"
-      style={{ height: pin ? "120vh" : "100vh" }}
+      style={{ height: pin ? "120dvh" : "100dvh" }}
     >
-      <div className={pin ? "sticky top-0 h-screen w-full overflow-hidden" : "h-screen w-full overflow-hidden"}>
+      <div className={pin ? "sticky top-0 h-[100dvh] w-full overflow-hidden" : "h-[100dvh] w-full overflow-hidden"}>
         <motion.div
           style={{
             backgroundColor: bg,
@@ -40,14 +40,14 @@ export function StorySection({ index, kicker, title, bg, fg, rule, children, pin
             opacity,
             transformOrigin: "0% 100%",
           }}
-          className="flex h-full w-full flex-col justify-between gap-6 px-[5vw] pt-[clamp(2rem,6vw,5rem)] pb-[4vw] will-change-transform"
+          className="flex h-full w-full flex-col justify-between gap-3 px-[5vw] pt-20 pb-[4vw] md:gap-6 md:pt-[clamp(2rem,6vw,5rem)] will-change-transform"
         >
           <p className="text-[11px] font-bold uppercase tracking-[0.25em]">
             {index} · {kicker}
           </p>
           <hr className="border-none border-t" style={{ borderColor: rule ?? fg, opacity: 0.5 }} />
           <div>
-            <h2 className="font-display text-[clamp(3.5rem,12vw,14rem)] leading-[0.85] uppercase tracking-tight">
+            <h2 className="font-display text-[clamp(2.2rem,12vw,14rem)] leading-[0.85] uppercase tracking-tight">
               {title}
             </h2>
           </div>
@@ -63,7 +63,7 @@ export function ColRow({ items }: { items: { label: string; body: string }[] }) 
   return (
     <div className="flex flex-wrap gap-[3vw]">
       {items.map((it) => (
-        <div key={it.label} className="min-w-[180px] flex-1">
+        <div key={it.label} className="min-w-[140px] flex-1">
           <p className="mb-2 text-sm font-bold uppercase tracking-wider">{it.label}</p>
           <p className="text-[clamp(0.9rem,1.2vw,1.05rem)] leading-relaxed opacity-75">{it.body}</p>
         </div>
